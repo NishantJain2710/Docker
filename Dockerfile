@@ -1,8 +1,8 @@
 FROM node
 
-WORKDIR /firstdockerapp
+WORKDIR /app
 
-COPY . /firstdockerapp
+COPY . /app
 
 RUN npm install
 
