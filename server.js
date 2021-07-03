@@ -5,7 +5,7 @@ const app = express()
 dotenv.config()
 
 app.get('/',(req,res)=>{
-    res.send("Hello Docker")
+    res.send("Hello Docker bind mount test")
 })
 
 
